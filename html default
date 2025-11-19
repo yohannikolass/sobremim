@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Mim - [Seu Nome]</title>
+    <link rel="stylesheet" href="style.css"> </head>
+<body>
+
+    <header class="hero-section">
+        <h1>Olá, eu sou [Seu Nome]</h1>
+        <p class="subtitle">[Sua Frase de Efeito ou Título Principal - Ex: Desenvolvedor Front-end | Designer Criativo | Especialista em Marketing]</p>
+    </header>
+
+    <main class="about-container">
+
+        <section class="section-card summary">
+            <h2>🌍 Quem Eu Sou</h2>
+            <p>
+                [Parágrafo curto e de impacto que resume você. Mencione sua paixão, o que você faz de melhor e há quanto tempo. Ex: Sou um desenvolvedor web apaixonado por transformar ideias complexas em interfaces de usuário simples e elegantes. Com 5 anos de experiência, meu foco é em performance e acessibilidade.]
+            </p>
+        </section>
+
+        <section class="section-card expertise">
+            <h2>🛠️ O Que Eu Faço (Minha Especialidade)</h2>
+            <ul>
+                <li>
+                    <strong>[Área 1]:</strong> [Breve descrição. Ex: Desenvolvimento Front-end com React e Vue.js, criando Single Page Applications (SPAs).]
+                </li>
+                <li>
+                    <strong>[Área 2]:</strong> [Breve descrição. Ex: UI/UX Design, focando em wireframes, protótipos de alta fidelidade e testes de usabilidade.]
+                </li>
+                <li>
+                    <strong>[Área 3]:</strong> [Breve descrição. Ex: Criação de Conteúdo para Mídias Sociais, gerenciando calendários e otimizando engajamento.]
+                </li>
+            </ul>
+        </section>
+
+        <section class="section-card background">
+            <h2>📜 Minha Jornada</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h3>[Ano/Período] - [Cargo ou Título]</h3>
+                    <p><strong>[Empresa ou Instituição]</strong></p>
+                    <p>[Uma linha sobre a principal conquista ou aprendizado. Ex: Liderança do projeto X, resultando em um aumento de 30% na conversão.]</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>[Ano/Período] - [Certificação ou Formação]</h3>
+                    <p><strong>[Instituição]</strong></p>
+                    <p>[Ex: Graduação em Ciência da Computação, especializando-se em arquitetura de software.]</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-card hobbies">
+            <h2>💡 Fora do Trabalho</h2>
+            <p>
+                [Mencione hobbies, interesses ou valores pessoais para humanizar a página. Ex: Quando não estou codificando, você pode me encontrar na trilha, lendo sobre história ou tentando aperfeiçoar a receita de pão artesanal.]
+            </p>
+        </section>
+
+        <section class="section-card contact">
+            <h2>📞 Vamos Conectar?</h2>
+            <p>Se você tem um projeto em mente ou apenas quer trocar ideias, sinta-se à vontade para entrar em contato:</p>
+            <div class="contact-links">
+                <a href="mailto:seuemail@exemplo.com" class="button primary">Enviar E-mail</a>
+                <a href="https://linkedin.com/in/seuperfil" class="button secondary" target="_blank">LinkedIn</a>
+                <a href="https://github.com/seuperfil" class="button secondary" target="_blank">GitHub</a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; [Ano Atual] [Seu Nome]. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
