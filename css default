@@ -1,0 +1,179 @@
+/* Configurações Globais */
+:root {
+    --primary-color: #3b82f6; /* Azul vibrante */
+    --secondary-color: #1f2937; /* Cinza escuro */
+    --text-color: #4b5563; /* Cinza de texto */
+    --background-color: #f9fafb; /* Fundo claro */
+    --card-background: #ffffff; /* Fundo do card */
+    --border-radius: 8px;
+    --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    padding-bottom: 50px; /* Espaço para o footer */
+}
+
+/* Hero Section (Topo) */
+.hero-section {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: var(--secondary-color);
+    color: var(--card-background);
+}
+
+.hero-section h1 {
+    font-size: 3em;
+    margin-bottom: 0.2em;
+}
+
+.hero-section .subtitle {
+    font-size: 1.2em;
+    color: var(--primary-color);
+    font-weight: 500;
+}
+
+/* Container Principal */
+.about-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* Cards de Seção */
+.section-card {
+    background-color: var(--card-background);
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+}
+
+.section-card h2 {
+    color: var(--secondary-color);
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+/* Lista de Habilidades */
+.expertise ul {
+    list-style: none;
+    padding: 0;
+}
+
+.expertise li {
+    margin-bottom: 10px;
+    padding-left: 15px;
+    position: relative;
+}
+
+.expertise li::before {
+    content: "✔️"; /* Ícone de check */
+    position: absolute;
+    left: 0;
+    color: var(--primary-color);
+}
+
+/* Linha do Tempo (Jornada) */
+.timeline {
+    border-left: 2px solid var(--primary-color);
+    padding-left: 20px;
+    margin-left: 10px;
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+}
+
+.timeline-item::before {
+    content: '•';
+    position: absolute;
+    left: -29px;
+    top: 0;
+    font-size: 2em;
+    color: var(--primary-color);
+    line-height: 0.5;
+}
+
+.timeline-item h3 {
+    color: var(--secondary-color);
+    font-size: 1.1em;
+}
+
+/* Contato e Botões */
+.contact-links {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.2s;
+    font-weight: bold;
+    text-align: center;
+}
+
+.button.primary {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.button.primary:hover {
+    background-color: #2563eb; /* Um azul um pouco mais escuro */
+    transform: translateY(-2px);
+}
+
+.button.secondary {
+    background-color: transparent;
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+}
+
+.button.secondary:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #e5e7eb;
+    color: var(--text-color);
+    font-size: 0.9em;
+    margin-top: 30px;
+}
+
+/* Responsividade Básica */
+@media (max-width: 600px) {
+    .hero-section h1 {
+        font-size: 2.2em;
+    }
+    
+    .contact-links {
+        flex-direction: column;
+    }
+
+    .button {
+        width: 100%;
+    }
+}
