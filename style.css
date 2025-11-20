@@ -1,9 +1,9 @@
 /* Configurações Globais */
 :root {
-    --primary-color: #3b82f6; /* Azul vibrante */
-    --secondary-color: #1f2937; /* Cinza escuro */
-    --text-color: #4b5563; /* Cinza de texto */
-    --background-color: #f9fafb; /* Fundo claro */
+    --primary-color: #712fa3; /* Azul vibrante */
+    --secondary-color: #2e1f37; /* Cinza escuro */
+    --text-color: #5b4b63; /* Cinza de texto */
+    --background-color: #faf9fb; /* Fundo claro */
     --card-background: #ffffff; /* Fundo do card */
     --border-radius: 8px;
     --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
@@ -80,7 +80,7 @@ body {
 }
 
 .expertise li::before {
-    content: "✔️"; /* Ícone de check */
+    content: "✔️ "; /* Ícone de check */
     position: absolute;
     left: 0;
     color: var(--primary-color);
