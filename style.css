@@ -138,7 +138,7 @@ body {
 }
 
 .button.primary:hover {
-    background-color: #2563eb; /* Um azul um pouco mais escuro */
+    background-color: rgb(101, 25, 156); /* Um azul um pouco mais escuro */
     transform: translateY(-2px);
 }
 
